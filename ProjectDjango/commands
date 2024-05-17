@@ -1,0 +1,19 @@
+INSTALLATION+CREATION PROJET:
+https://www.youtube.com/watch?v=Uq7TkegTXRU
+
+
+my_env\Scripts\activate
+
+
+START PROJECT:
+python manage.py runserver
+
+project -->> multiple apps
+
+CREATE APP:
+python manage.py startapp PrepaDuPrepa
+
+
+DATABASE:
+python manage.py makemigrations PrepaDuPrepa
+python manage.py migrate PrepaDuPrepa
